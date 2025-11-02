@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black opacity-80"></div>
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 select-none">
         <img
           src="/aea-frontend/homepage/engine.png"
           alt="Engine Background"
@@ -13,11 +13,11 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 text-center px-6 max-w-5xl">
-        <div className="mb-8">
+        <div className="mb-8 select-none">
           <img
             src="/aea-frontend/homepage/aea_logo.png"
             alt="AEA Logo"
-            className="h-32 mx-auto mb-6 filter brightness-0 invert opacity-90"
+            className="h-32 mx-auto mb-6 filter brightness-0 invert opacity-90 select-none"
           />
         </div>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-extralight tracking-widest mb-6 animate-fade-in">
