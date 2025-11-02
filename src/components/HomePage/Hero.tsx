@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black opacity-80"></div>
       <div className="absolute inset-0">
         <img
-          src="/homepage/engine.png"
+          src="/aea-frontend/homepage/engine.png"
           alt="Engine Background"
           className="w-full h-full object-cover opacity-30"
         />
@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="relative z-10 text-center px-6 max-w-5xl">
         <div className="mb-8">
           <img
-            src="/homepage/aea_logo.png"
+            src="/aea-frontend/homepage/aea_logo.png"
             alt="AEA Logo"
             className="h-32 mx-auto mb-6 filter brightness-0 invert opacity-90"
           />

@@ -6,14 +6,14 @@ const PastEvents = () => {
       id: 1,
       title: "Aero Spectra",
       date: "March 22, 2025",
-      image: "/events/aero_spectra.JPG",
+      image: "/aea-frontend/events/aero_spectra.JPG",
       description: "Ethic Day for the Aerospace department",
     },
     {
       id: 2,
       title: "Aero Nite",
       date: "September 19, 2025",
-      image: "/events/aero_nite.jpg",
+      image: "/aea-frontend/events/aero_nite.jpg",
       description: "Annual night of Aerospace department",
     },
     // {
@@ -39,7 +39,7 @@ const PastEvents = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {pastEvents.map((event, idx) => (
+          {pastEvents.map((event) => (
             <div key={event.id} className="group cursor-pointer">
               <div className="relative overflow-hidden mb-6 aspect-[4/3]">
                 <img

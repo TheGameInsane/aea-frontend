@@ -31,7 +31,7 @@ const About = () => {
           <div className="relative">
             <div className="aspect-square rounded-sm overflow-hidden ">
               <img
-                src="/homepage/plane.jpg"
+                src="/aea-frontend/homepage/plane.jpg"
                 alt="Jet Engine"
                 className="w-full invert-100 object-cover grayscale hover:grayscale-0 transition-all duration-500"
               />

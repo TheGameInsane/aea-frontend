@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-6">
               <img
-                src="/homepage/aea_logo.png"
+                src="/aea-frontend/homepage/aea_logo.png"
                 alt="AEA Logo"
                 className="h-10 filter brightness-0 invert opacity-70"
               />
