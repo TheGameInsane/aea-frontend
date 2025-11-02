@@ -1,7 +1,14 @@
+
+
+
+
+
+/* ------------------------------------------------------------------------------------ */
+
 /* src/LandingPage.css */
 
 /* Basic reset and font setup */
-body,
+/* body,
 html,
 #root {
   margin: 0;
@@ -13,7 +20,7 @@ html,
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 /* Main full-screen container */
 .landing-container {
