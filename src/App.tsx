@@ -1,4 +1,7 @@
 import LandingPage from "./pages/LandingPage"; // Import the component
+import VotingPage from "./pages/VotingPage";
+import { Routes, Route } from "react-router-dom";
+import { AuthProvider } from "./utils/AuthContext";
 // import { useEffect, useState } from "react";
 
 function App() {
@@ -69,9 +72,21 @@ function App() {
   // }
 
   return (
-    <div className="App">
-      <LandingPage />
-    </div>
+    <AuthProvider>
+      {/* This div provides a consistent background */}
+      <div className="min-h-screen bg-gray-900 text-white">
+        {/* 3. Define all your application's routes */}
+        <Routes>
+          {/* Route 1: The main page */}
+          <Route path="/" element={<LandingPage />} />
+
+          {/* Route 2: The voting page */}
+          <Route path="/vote" element={<VotingPage />} />
+
+          {/* You could add more routes here, e.g., <Route path="/results" element={<ResultsPage />} /> */}
+        </Routes>
+      </div>
+    </AuthProvider>
   );
 }
 

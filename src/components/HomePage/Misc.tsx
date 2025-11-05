@@ -1,4 +1,5 @@
 import { Trophy } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Misc = () => {
   return (
@@ -21,9 +22,12 @@ const Misc = () => {
           pride.
         </p>
 
-        <button className="group relative inline-flex items-center text-sm tracking-widest border border-white px-12 py-5 hover:bg-white hover:text-black transition-all duration-300 overflow-hidden">
+        <Link
+          to={"/vote"}
+          className="group relative inline-flex items-center text-sm tracking-widest border border-white px-12 py-5 hover:bg-white hover:text-black transition-all duration-300 overflow-hidden"
+        >
           <span className="relative z-10">LOGIN WITH SMAIL TO VOTE</span>
-        </button>
+        </Link>
 
         <p className="text-xs text-gray-600 mt-6 tracking-wide">
           Secure authentication required • One vote per member
